@@ -1,0 +1,69 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgb(242, 255, 168);
+    box-shadow: 2px 2px 5px #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.card-header {
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    color: rgb(74, 15, 15);
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(250, 10, 130);
+    margin: 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.item-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.item-price,
+.item-tax,
+.item-total {
+    color: green;
+    font-size: 1.2rem;
+}
+
+
+.place-order-btn {
+    background-color: #ea22aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2px 2px 5px #ccc;
+
+}
+
+.place-order-btn:hover {
+    background-color: #fcf6fa;
+    color: #ea22aa;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px #ccc;
+
+}
